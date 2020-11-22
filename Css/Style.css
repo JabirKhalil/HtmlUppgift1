@@ -132,7 +132,52 @@ a:hover{
     padding: 0;
 }
 
+/* show case */
 
+#showcase{
+    
+    height: 200px;
+    background-color: #dedede;
+    display: flex;
+    
+    
+    
+}
+.placehold{
+    height: 200px;
+    width: 60px;
+    display: flex;
+   float: left;
+   margin: 0;
+   
+}
+.summary{
+   
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+.summary h6{
+    margin-bottom: 0;
+}
+.summary p{
+    font-size: 8px;
+    margin-top: 0;
+    
+}
+.btnSummary{
+background-color: #25e6c8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  margin: 20px, 0, 0,20px;
+}
 
 @media (min-width:768px){
     .container{
