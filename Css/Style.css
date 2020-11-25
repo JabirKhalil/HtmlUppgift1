@@ -15,6 +15,7 @@ html, body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    background-color:#FFFFFF;
  
 }
 
@@ -136,37 +137,93 @@ a:hover{
 
 #showcase{
     
-    height: 200px;
+    
     background-color: #dedede;
     display: flex;
+    position: relative;
+       height: auto;
     
     
     
 }
 .placehold{
-    height: 200px;
-    width: 60px;
-    display: flex;
+    height: 170px;
+    width: 120px;
+    display: block;
    float: left;
-   margin: 0;
-   
+   margin-bottom: 0;
+   padding-bottom:0px;
+  
+ 
 }
-.summary{
-   
-    width: 200px;
-    float: left;
-    margin-left: 20px;
-    padding: 20px;
 
+@media (min-width:768px){
+    .placehold{
+        height: 100%; 
+        width: 30%;
+      
+      display: block;
+      padding-top: 20px;
+    
+      
+       
+    }
 }
-.summary h6{
+    .summaryCase{
+   
+        width: 50%;
+        float: left;
+        margin-left: 20px;
+        
+       
+      
+       
+    }
+
+@media (min-width:768px)
+{
+    .summaryCase{
+        float: left;
+        margin-left: 10%;
+        
+        width: 55%;
+    }
+}
+
+.summaryCase h6{
     margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    margin-top: 0;
+    padding-top: 10%;
+    font-size: 1.2rem;
+   
 }
-.summary p{
+
+@media (min-width:768px){
+    .summaryCase h6{
+        font-size: xxx-large ;
+        
+    }
+}
+
+
+ .p{
     font-size: 8px;
     margin-top: 0;
-    
+    font-family: 'Roboto Slab', serif;
+    word-wrap: break-word;
+  
 }
+
+@media (min-width:768px){
+    .summaryCase p{
+        font-size: large;
+    }
+}
+
+
+
 .btnSummary{
 background-color: #25e6c8;
   border: none;
@@ -175,9 +232,100 @@ background-color: #25e6c8;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 9px;
+  font-size: 16px;
   margin: 20px, 0, 0,20px;
 }
+
+#aboutus{
+    margin-top:5% ;
+    background-color:#FFFFFF;
+    display: flex;
+    position: relative;
+       height: auto;
+}
+
+
+.about{
+   
+  
+    width: 60%;
+    float: left;
+    margin-left: 0;
+    
+}
+
+@media (min-width:768px){
+    .about{
+        margin-right:40px ;
+    }
+}
+
+.about h6{
+    margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+   padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 1.1rem;
+  
+    border-bottom: solid #2baaec;
+   
+    
+}
+
+@media (min-width:768px){
+
+    .about h6{
+    
+        padding-right:30%;
+        font-size: xx-large;
+   
+    }
+    
+}
+
+
+.about p{
+    margin-top: 0;
+}
+
+@media (min-width:768px){
+    .about p{
+        font-size: large;
+        margin-bottom: 0;
+        
+    }
+}
+
+
+
+.blue{
+    color:#2baaec;
+}
+
+
+.numbers{
+    
+    width: 50px;
+    height: 30px;
+   
+}
+
+@media (min-width:768px){
+
+
+    .numbers{
+    
+        width:60%;
+       margin-right: 0;
+       margin-top: 20px;
+       padding-right: 0;
+    }
+
+  
+}
+
+
 
 @media (min-width:768px){
     .container{
@@ -199,7 +347,12 @@ background-color: #25e6c8;
     }
         
     
-   
+   #showcase{
+      
+       position: relative;
+       height: auto;
+      
+   }
 
 
 }
@@ -207,7 +360,8 @@ background-color: #25e6c8;
 
 
 
-@media (min-width:992px){
+@media (min-width:992px)
+{
     .menu ul{
         display: flex;
         
@@ -229,5 +383,5 @@ background-color: #25e6c8;
         
     }
 
-    
+
    
