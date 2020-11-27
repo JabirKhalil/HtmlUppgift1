@@ -235,6 +235,10 @@ background-color: #25e6c8;
   font-size: 16px;
   margin: 20px, 0, 0,20px;
 }
+.btnSummary:hover{
+    background-color: #4CAF50;
+  color: white;
+}
 
 #aboutus{
     margin-top:5% ;
@@ -388,19 +392,76 @@ background-color: #25e6c8;
 
 .note{
     
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    
    
     height: 140px;
-    font-size: 15px;
-    
+   
+    padding-top: 10px;
     text-align: center;
 }
+.note:hover{
+    border: solid rgb(88, 85, 85);
+    border-width: 1px;
+    
+}
+.icon {
+    
+    background-color: #25E6C8;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+.icon:hover{
+    background-color:#2BAAEC;
+}
 
+.text{
+    margin-top: 0;
+}
+.text span{
+    font-size: 12px;
+   
+}
+.note p{
+    font-size: 10px;
+    margin-top: 0;
+  
+}
+
+
+
+@media (min-width:768px){
+.icon {
+    
+    background-color: #25E6C8;
+    padding: 15px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+   
+}
+
+.text{
+    margin-top: 5%;
+}
+.text span{
+    font-size: 22px;
+   
+}
+.note p{
+    font-size: 12px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 0;
+}
+}
 @media (min-width:768px){
     .note{
         
-     
-  border: 1px solid rgba(0, 0, 0, 0.8);
+    padding-top: 10%;
+  
   height: 320px;
   font-size: 30px;
   
@@ -413,19 +474,7 @@ background-color: #25e6c8;
 
 
 
-#note2{
-    background-color: rgb(181, 241, 13);
-   
-}
-#note3{
-    background-color: rgb(226, 153, 43);
-  
-}
-#note4{
-    background-color: rgb(43, 226, 58);
-   
 
-}
 
 
 
