@@ -185,7 +185,7 @@ a:hover{
     .summaryCase{
         float: left;
         margin-left: 10%;
-        border: solid black;
+       
         width: 60%;
         
        padding-right:20%;
@@ -334,7 +334,7 @@ background-color: #25e6c8;
 
 #section1{
     background-color: #F7F7F7;
-    margin-bottom: 10%;
+   padding-bottom: 10%;
 
 }
 .service{
@@ -481,36 +481,39 @@ background-color: #25e6c8;
 
 
 
-/*footer*/
+/*down*/
 
 
 #appointment{
-    border: solid black;
-    background-color: #c2ec2b;
+   
+    background-color: #2baaec;
     display: flex;
+    border-width: 0 0 0.3px 0;
+    
+    
   
    
 }
 
-#appointment .container{
-    justify-content: space-between;
-    background-color: red;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    margin: 20px;
+#appointment .container1{
+    
+  
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width:100%;
+    padding-bottom: 30px;
     
    
 
 }
 .suggest span{
-    border: solid rgb(123, 255, 0);
+  
     color: #FFFFFF;
     font-family: Roboto Slab;
     float: left;
     margin-left: 0;
     padding-left: 0;
+  
 }
 
 .btnabout{
@@ -521,17 +524,22 @@ background-color: #25e6c8;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
- 
+  float: right;
+  font-size: 18px;
+  margin-right: 25px;
+font-weight: bold;
+
    
 
 }
 
 
 footer{
-    background-color: #2BAAEC ;
+    background-color: #2BAAEC;
     display: flex;
+    box-shadow: #000000;
+    border: #707070;
+    box-sizing: 1px;
 }
 
 footer h6{
