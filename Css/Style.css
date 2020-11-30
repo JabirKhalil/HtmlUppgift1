@@ -121,7 +121,7 @@ a:hover{
     font-weight: 300;
     text-align: center;
     vertical-align: middle;
-    padding: 1.25rem , 1.75rem;
+    padding: 1.25rem  1.75rem;
     border-radius: 0.75rem;
     border: 1px solid transparent;
     background-color: transparent;
@@ -185,8 +185,10 @@ a:hover{
     .summaryCase{
         float: left;
         margin-left: 10%;
+        border: solid black;
+        width: 60%;
         
-        width: 55%;
+       padding-right:20%;
     }
 }
 
@@ -202,7 +204,7 @@ a:hover{
 
 @media (min-width:768px){
     .summaryCase h6{
-        font-size: xxx-large ;
+        font-size: 40px ;
         
     }
 }
@@ -218,7 +220,8 @@ a:hover{
 
 @media (min-width:768px){
     .summaryCase p{
-        font-size: large;
+        font-size: 18px;
+       
     }
 }
 
@@ -233,7 +236,8 @@ background-color: #25e6c8;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 20px, 0, 0,20px;
+  margin: 20px 0 0 20px;
+  
 }
 .btnSummary:hover{
     background-color: #4CAF50;
@@ -328,7 +332,11 @@ background-color: #25e6c8;
 
 }
 
+#section1{
+    background-color: #F7F7F7;
+    margin-bottom: 10%;
 
+}
 .service{
     display: grid;
     grid-template-columns: 1fr ;
@@ -381,7 +389,7 @@ background-color: #25e6c8;
 @media (min-width:768px){
     .notes{
   display: grid;
-  grid-gap: 1px ;
+  grid-gap: 15px ;
   grid-template-columns: 30% 30% 30%;
   
   
@@ -392,7 +400,7 @@ background-color: #25e6c8;
 
 .note{
     
-    
+    background-color: #FFFFFF;
    
     height: 140px;
    
@@ -400,7 +408,7 @@ background-color: #25e6c8;
     text-align: center;
 }
 .note:hover{
-    border: solid rgb(88, 85, 85);
+    border: solid #2baaec;
     border-width: 1px;
     
 }
@@ -473,14 +481,67 @@ background-color: #25e6c8;
 
 
 
+/*footer*/
 
 
+#appointment{
+    border: solid black;
+    background-color: #c2ec2b;
+    display: flex;
+  
+   
+}
+
+#appointment .container{
+    justify-content: space-between;
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 20px;
+    
+   
+
+}
+.suggest span{
+    border: solid rgb(123, 255, 0);
+    color: #FFFFFF;
+    font-family: Roboto Slab;
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.btnabout{
+    background-color: #FFFFFF;
+  border: none;
+  color: #2baaec;
+  padding: 10px 70px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+   
+
+}
 
 
+footer{
+    background-color: #2BAAEC ;
+    display: flex;
+}
 
-
-
-
+footer h6{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    margin: 20px;
+}
 
 
 
