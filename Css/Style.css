@@ -149,7 +149,7 @@ a:hover{
 .placehold{
     height: 170px;
     width: 120px;
-    display: block;
+    display:none;
    float: left;
    margin-bottom: 0;
    padding-bottom:0px;
@@ -157,7 +157,7 @@ a:hover{
  
 }
 
-@media (min-width:768px){
+@media (min-width:1200px){
     .placehold{
         height: 100%; 
         width: 30%;
@@ -171,21 +171,22 @@ a:hover{
 }
     .summaryCase{
    
-        width: 50%;
+        width: 100%;
         float: left;
-        margin-left: 20px;
-        
+        margin-left: 5px;
+        margin-right: 10px;
+      
        
       
        
     }
 
-@media (min-width:768px)
+@media (min-width:1200px)
 {
     .summaryCase{
         float: left;
         margin-left: 10%;
-       
+       margin-right: 0;
         width: 60%;
         
        padding-right:20%;
@@ -256,15 +257,16 @@ background-color: #25e6c8;
 .about{
    
   
-    width: 60%;
+    width: 100%;
     float: left;
-    margin-left: 0;
-    
+    margin-left: 5px;
+   margin-right: 10px;
 }
 
-@media (min-width:768px){
+@media (min-width:1200px){
     .about{
         margin-right:40px ;
+        width: 60%;
     }
 }
 
@@ -564,9 +566,9 @@ font-weight: bold;
 footer{
     background-color: #2BAAEC;
     display: flex;
-    box-shadow:1px 1px #000000;
-    border: #707070;
-   
+    
+  
+    border-top: solid rgba(255,255,255,0.16);;
 }
 
 footer h6{
